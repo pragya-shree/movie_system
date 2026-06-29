@@ -8,17 +8,19 @@ movies = pickle.load(open("movies.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
 
 def fetch_poster(movie_id):
-    api_key = "PASTE_YOUR_REAL_API_KEY_HERE"
-
-    url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}"
-    data = requests.get(url).json()
-
-    poster_path = data.get("poster_path")
-
-    if poster_path:
-        return "https://image.tmdb.org/t/p/w500" + poster_path
-    else:
-        return "https://via.placeholder.com/300x450?text=No+Image"
+    return "https://via.placeholder.com/300x450?text=Movie"
+# def fetch_poster(movie_id):
+#     api_key = "PASTE_YOUR_REAL_API_KEY_HERE"
+#
+#     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={api_key}"
+#     data = requests.get(url).json()
+#
+#     poster_path = data.get("poster_path")
+#
+#     if poster_path:
+#         return "https://image.tmdb.org/t/p/w500" + poster_path
+#     else:
+#         return "https://via.placeholder.com/300x450?text=No+Image"
 # def fetch_poster(movie_id):
 #     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key=YOUR_API_KEY"
 #     data = requests.get(url).json()

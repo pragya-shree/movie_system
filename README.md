@@ -3,7 +3,7 @@
 A machine learning-based movie recommender that suggests similar movies and displays posters using the TMDB API. Built with Python and Streamlit.
 
 ---
-## 🎬 Project Preview
+## Project Preview
 
 A smart movie recommendation system that suggests similar movies using machine learning and shows real posters using TMDB API.
 
@@ -81,15 +81,7 @@ Get API key: https://www.themoviedb.org/settings/api
 Add in streamlit_app.py:
 api_key = "YOUR_TMDB_API_KEY"
 
----
-
-## 🎯 Example Output
-If you select *Inception*, the system recommends:
-
-- Interstellar  
-- The Matrix  
-- Tenet  
-- Shutter Island  
+--- 
 
 ## 🌐 Links
 - Live App: https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/

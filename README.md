@@ -3,10 +3,11 @@
 A machine learning-based movie recommender that suggests similar movies and displays posters using the TMDB API. Built with Python and Streamlit.
 
 ---
+## 🎬 Project Preview
 
-## 🚀 Live Demo
-👉 https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/
+A smart movie recommendation system that suggests similar movies using machine learning and shows real posters using TMDB API.
 
+👉 Try it live here: https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/
 ---
 
 ## 📌 Features
@@ -43,6 +44,20 @@ A machine learning-based movie recommender that suggests similar movies and disp
 ### Screenshot 4
 ![Screenshot 4](/screenshots/Screenshot%202026-06-30%20140436.png)
 
+## 🧠 How It Works
+
+1. Movies are converted into feature vectors using NLP techniques  
+2. Cosine similarity is used to find similar movies  
+3. Top matching movies are recommended  
+4. Posters are fetched using TMDB API  
+5. Results are displayed using Streamlit UI
+
+## 📊 Machine Learning Approach
+
+- Technique: Content-Based Filtering  
+- Vectorization: CountVectorizer / TF-IDF (depending on your code)  
+- Similarity Metric: Cosine Similarity 
+
 ## 📁 Project Structure
 movie_system/
 ├── streamlit_app.py
@@ -67,6 +82,14 @@ Add in streamlit_app.py:
 api_key = "YOUR_TMDB_API_KEY"
 
 ---
+
+## 🎯 Example Output
+If you select *Inception*, the system recommends:
+
+- Interstellar  
+- The Matrix  
+- Tenet  
+- Shutter Island  
 
 ## 🌐 Links
 - Live App: https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/

@@ -1,47 +1,77 @@
-# 🎬 Movie Recommender System
+# 🎬 Movie Recommendation System
 
-A Content-Based Movie Recommender System built using Machine Learning and Streamlit.
+A machine learning-based movie recommender that suggests similar movies and displays posters using the TMDB API. Built with Python and Streamlit.
 
-## Features
+---
 
-- Recommend 5 similar movies
-- Display movie posters using the TMDB API
-- Fast recommendations using Cosine Similarity
-- Interactive web interface with Streamlit
+## 🚀 Live Demo
+👉 https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/
 
-## Tech Stack
+---
 
+## 📌 Features
+- 🎯 Content-based movie recommendations
+- 🎬 Movie posters using TMDB API
+- ⚡ Fast similarity-based engine
+- 🌐 Streamlit web app
+- 📊 ML similarity model
+
+---
+
+## 🧠 Tech Stack
 - Python
 - Pandas
+- NumPy
 - Scikit-learn
-- NLTK
 - Streamlit
+- Requests
 - TMDB API
 
-## Machine Learning Workflow
+---
 
-1. Data Preprocessing
-2. Feature Engineering
-3. Text Vectorization using CountVectorizer
-4. Cosine Similarity
-5. Recommendation Generation
+## 📁 Project Structure
+movie_system/
+├── streamlit_app.py
+├── movies.pkl
+├── similarity.pkl
+├── requirements.txt
+├── README.md
 
-## Installation
+---
 
-```bash
+## ⚙️ How to Run Locally
+git clone https://github.com/pragya-shree/movie_system.git
+cd movie_system
 pip install -r requirements.txt
-```
+streamlit run streamlit_app.py
 
-Run the app:
+---
 
-```bash
-streamlit run app.py
-```
+## 🔑 API Setup (TMDB)
+Get API key: https://www.themoviedb.org/settings/api  
+Add in streamlit_app.py:
+api_key = "YOUR_TMDB_API_KEY"
 
-## Dataset
+---
 
-TMDB 5000 Movies Dataset
+## 🌐 Links
+- Live App: https://moviesystem-mnznjrkqmbj5pnfubpmnos.streamlit.app/
+- GitHub: https://github.com/pragya-shree/movie_system
+- TMDB API: https://www.themoviedb.org/settings/api
 
-## Author
+---
 
+## ✨ Future Improvements
+- Netflix-style UI
+- Search feature
+- Faster recommendations
+- Mobile optimization
+
+---
+
+## 👨‍💻 Author
 Pragya Shree
+
+---
+
+⭐ If you like this project, give it a star!

@@ -3,11 +3,6 @@ import pickle
 import pandas as pd
 import requests
 
-st.cache_data.clear()
-st.cache_resource.clear()
-
-st.title("Movie Recommendation System")
-
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
 st.markdown(

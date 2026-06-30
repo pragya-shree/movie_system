@@ -29,6 +29,20 @@ A machine learning-based movie recommender that suggests similar movies and disp
 
 ---
 
+## 📸 Screenshots
+
+### Screenshot 1
+![Screenshot 1](/screenshots/Screenshot%202026-06-29%20213829.png)
+
+### Screenshot 2
+![Screenshot 2](/screenshots/Screenshot%202026-06-29%20213938.png)
+
+### Screenshot 3
+![Screenshot 3](/screenshots/Screenshot%202026-06-29%20214137.png)
+
+### Screenshot 4
+![Screenshot 4](/screenshots/Screenshot%202026-06-30%20140436.png)
+
 ## 📁 Project Structure
 movie_system/
 ├── streamlit_app.py

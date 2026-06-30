@@ -90,6 +90,28 @@ api_key = "YOUR_TMDB_API_KEY"
 
 ---
 
+## ⚖️ Model Validity & Limitations
+
+This movie recommendation system is based on a **content-based filtering approach**, where movies are recommended by measuring similarity between feature vectors (such as genres, keywords, overview text, and tags).
+
+### ✔️ On what basis recommendations are valid:
+- Movies are compared using **cosine similarity**
+- Similarity is calculated from text-based features like:
+  - Genres
+  - Keywords
+  - Movie overview
+- The system recommends movies with the **highest similarity scores**
+
+### ⚠️ Limitations:
+- The model does not understand real-world movie meaning or context
+- It only works on **mathematical/text similarity**, not human-level understanding
+- Recommendations may sometimes include movies that feel unrelated to humans
+- Accuracy depends heavily on the quality of input features
+- It does not include user preferences or watch history (no collaborative filtering)
+
+### 💡 Conclusion:
+This system provides **reasonably good recommendations based on feature similarity**, but it is **not 100% accurate** and can be improved using advanced techniques like TF-IDF tuning, embeddings, or hybrid recommendation systems.
+
 ## ✨ Future Improvements
 - Netflix-style UI
 - Search feature
